@@ -1,0 +1,1 @@
+This repository demonstrates a common JavaScript bug involving type coercion in addition operations. The `foo` function adds two input arguments. If either input is not a number, implicit type coercion may lead to unexpected results. The solution provides a revised function that explicitly checks for number types and handles non-numeric input more robustly.
